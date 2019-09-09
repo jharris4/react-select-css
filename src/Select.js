@@ -169,16 +169,19 @@ class Select extends React.Component {
   static getDerivedStateFromProps(nextProps, prevState) {
     const newState = {};
 
+    if (nextProps.value !== prevState.oldValue) {
+      newState.oldValue = nextProps.value;
+    }
+    if (nextProps.required !== prevState.oldRequired) {
+      newState.oldRequired = nextProps.required;
+    }
+
     if (nextProps.required) {
       const valueArray = getValueArray(nextProps.value, nextProps);
       newState.required = handleRequired(valueArray[0], nextProps.multi);
     } else if (prevState.oldRequired) {
       // Used to be required but it's not any more
       newState.required = false;
-    }
-
-    if (nextProps.required !== prevState.oldRequired) {
-      newState.oldRequired = nextProps.required;
     }
 
     if (
