@@ -3,7 +3,7 @@
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/react-select
 */
-import AutosizeInput from 'react-input-autosize';
+import AutosizeInput from 'react-input-autosize-fork';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';

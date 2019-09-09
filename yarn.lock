@@ -3165,10 +3165,10 @@ react-dom@^16.9.0:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
-react-input-autosize@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-2.2.1.tgz#ec428fa15b1592994fb5f9aa15bb1eb6baf420f8"
-  integrity sha512-3+K4CD13iE4lQQ2WlF8PuV5htfmTRLH6MDnfndHM6LuBRszuXnuyIfE7nhSKt8AzRBZ50bu0sAhkNMeS5pxQQA==
+react-input-autosize-fork@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-input-autosize-fork/-/react-input-autosize-fork-2.2.2.tgz#dce72812d64fb09148e186be1fbaa8dc80e5fd96"
+  integrity sha512-dkTUQtlNt8BazPb4xgC4fBvXFGf2PrpGept7IU2cc0sKnQO6WvRWsG96dDHk+x4eL3WuAAwMG9n46UyZFQWwAA==
   dependencies:
     prop-types "^15.5.8"
 

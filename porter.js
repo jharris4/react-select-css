@@ -21,13 +21,13 @@ module.exports = {
     externalPackages: [
       "react",
       "react-dom",
-      "react-input-autosize",
+      "react-input-autosize-fork",
       "prop-types"
     ],
     globalPackages: {
       react: "React",
       "react-dom": "ReactDOM",
-      "react-input-autosize": "AutosizeInput",
+      "react-input-autosize-fork": "AutosizeInput",
       "prop-types": "PropTypes"
     },
     analyze: true,
